@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>BMI Check</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+
+    <nav class="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/gain-weight.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">
+            BMI Check !
+          </a>
+        </div>
+      </nav>
+
+    <main>
+        <h1>Check your BMI</h1>
+        <h4>Enter your weight and height below to check your BMI results</h4>
+
+        <!-- <div class="form-1">
+            <form> -->
+                <div class="weight-1">
+                    <p>Put your weight in here (KG)</p>
+                    <input type="number" id="weight" placeholder="weight(KG)"><br><span id="weight_error"></span>
+                </div>
+
+                <div class="height-1">
+                    <p>Put your height in here (CM)</p>
+                    <input type="number" id="height" placeholder="height(CM)"><br><span id="height_error"></span>    
+                </div>
+
+                <button onclick="bmicalculate()">Calculate BMI</button>
+
+                <p id="output"></p>
+            <!-- </form>
+        </div> -->
+
+    </main>
+
+    
+    
+    
+  </body>
+</html>
