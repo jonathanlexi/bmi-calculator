@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -19,17 +21,32 @@
         </div>
       </nav>
 
-    <div class="intro">
-        <div class="text">
-            <h3>BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is widely used as a general indicator of whether a person has a healthy body weight for their height. Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between.</h3>
+    <main>
+        <h1>Check your BMI</h1>
+        <h4>Enter your weight and height below to check your BMI results</h4>
 
-            <button class="calculator" onclick="location.href = 'index.html';">Calculate</button>
-        </div>   
         
-        <div class="img">
-            <img src="/assets/bmi.png" alt=" "  width="500" height="500" >
-        </div>
-    </div>
+            <form>
+              <div class="form-1">
+                <div class="weight-1">
+                    <p>Put your weight in here (KG)</p>
+                    <input type="number" id="weight" placeholder="weight(KG)"><br><span id="weight_error"></span>
+                </div>
+
+                <div class="height-1">
+                    <p>Put your height in here (CM)</p>
+                    <input type="number" id="height" placeholder="height(CM)"><br><span id="height_error"></span>    
+                </div>
+
+                <button id="btn">Calculate BMI</button>
+
+                <p id="output"></p>
+              </div>
+            </form>
+    </main>
+
+    
+    
     
   </body>
 </html>
