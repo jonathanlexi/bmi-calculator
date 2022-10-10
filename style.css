@@ -97,4 +97,22 @@ button{
     text-align: center;
 }
 
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+    margin: 5% 10%;
+}
+
+.text{
+    background-color: #9b5de5;
+    padding: 2% ;
+    border-radius: 20px;
+}
+
+.calculator {
+    width: 45%;
+}
+
 
